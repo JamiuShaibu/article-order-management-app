@@ -11,7 +11,6 @@ const UpdateOrder = () => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [articleAdded, setArticleAdded] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -60,7 +59,6 @@ const UpdateOrder = () => {
   };
 
   const addArticle = () => {
-    setArticleAdded(true);
     setFormData({
       ...formData,
       articles: [...formData.articles, { reference: "", quantity: 1 }],
@@ -161,7 +159,6 @@ const UpdateOrder = () => {
           <div className="flex items-center justify-between">
             <button
               type="submit"
-              disabled={!articleAdded}
               className="bg-gray-400 hover:bg-gray-500 disabled:bg-gray-300 text-white font-bold py-2 px-4 rounded"
             >
               Update Order
