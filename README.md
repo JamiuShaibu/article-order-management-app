@@ -79,3 +79,7 @@ Open your browser and go to http://localhost:5173
 
 - **Articles: `/articles`**
 - **Orders: `/orders`**
+
+###### Developer:
+
+**_Jamiu Shaibu_**
