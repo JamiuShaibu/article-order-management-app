@@ -1,0 +1,148 @@
+{
+  "articles": [
+    {
+      "id": "6fbd",
+      "reference": "A001",
+      "name": "Premium Leather Wallet",
+      "description": "A stylish leather wallet with multiple card slots and a bill compartment. Made from high-quality genuine leather, this wallet offers durability and elegance. It features RFID-blocking technology to protect your cards from electronic theft.",
+      "price": "50",
+      "taxRate": "0.15"
+    },
+    {
+      "id": "bc46",
+      "reference": "A002",
+      "name": "Noise-Canceling Headphones",
+      "description": "Experience crystal-clear audio with these noise-canceling headphones. Designed with advanced technology to block out ambient noise, these headphones provide an immersive listening experience. The soft ear cups and adjustable headband ensure a comfortable fit for long-term use.",
+      "price": "100",
+      "taxRate": "0.20"
+    },
+    {
+      "id": "1fd8",
+      "reference": "A003",
+      "name": "Smartwatch with Fitness Tracker",
+      "description": "Stay connected and track your fitness goals with this smartwatch. It features a sleek design with a high-resolution touchscreen display. The watch includes heart rate monitoring, sleep tracking, and activity tracking for various sports. Connect to your smartphone for notifications, music control, and more.",
+      "price": "150",
+      "taxRate": "0.15"
+    },
+    {
+      "id": "2478",
+      "reference": "A004",
+      "name": "Bluetooth Speaker",
+      "description": "Enjoy high-quality sound with this portable Bluetooth speaker. Designed with a compact and durable body, it's perfect for outdoor use. The speaker features long battery life, easy-to-use controls, and built-in microphone for hands-free calls. Pair with your device for wireless streaming of your favorite music.",
+      "price": "70",
+      "taxRate": "0.10"
+    },
+    {
+      "id": "c850",
+      "reference": "A005",
+      "name": "Gaming Mouse",
+      "description": "Experience precision and comfort with this gaming mouse. Designed with ergonomics in mind, it features a sleek and customizable design. The mouse offers adjustable DPI, programmable buttons, and RGB lighting. Its durable build ensures long-lasting performance for intense gaming sessions.",
+      "price": "40",
+      "taxRate": "0.15"
+    },
+    {
+      "id": "2733",
+      "reference": "A006",
+      "name": "Mechanical Keyboard",
+      "description": "Upgrade your typing experience with this mechanical keyboard. Featuring high-quality switches, customizable RGB lighting, and a durable build, this keyboard is perfect for both work and gaming. The keyboard offers programmable keys, media controls, and a detachable wrist rest for added comfort.",
+      "price": "80",
+      "taxRate": "0.10"
+    },
+    {
+      "id": "eed8",
+      "reference": "A007",
+      "name": "Portable Charger",
+      "description": "Stay powered on the go with this portable charger. It features a compact design with high-capacity batteries, providing multiple charges for your devices. The charger includes fast charging technology, multiple USB ports, and a LED power indicator. It's compatible with various devices, including smartphones and tablets.",
+      "price": "39",
+      "taxRate": "0.13"
+    }
+  ],
+  "orders": [
+    {
+      "id": "d191",
+      "articles": [
+        {
+          "reference": "A001",
+          "quantity": 1
+        },
+        {
+          "reference": "A006",
+          "quantity": "6"
+        }
+      ],
+      "totalPriceExcludingTaxes": "530.00",
+      "totalPriceIncludingTaxes": "585.50"
+    },
+    {
+      "id": "c76a",
+      "articles": [
+        {
+          "reference": "A006",
+          "quantity": 1
+        },
+        {
+          "reference": "A005",
+          "quantity": "2"
+        }
+      ],
+      "totalPriceExcludingTaxes": "160.00",
+      "totalPriceIncludingTaxes": "180.00"
+    },
+    {
+      "id": "7c29",
+      "articles": [
+        {
+          "reference": "A004",
+          "quantity": "2"
+        },
+        {
+          "reference": "A003",
+          "quantity": "3"
+        }
+      ],
+      "totalPriceExcludingTaxes": "590.00",
+      "totalPriceIncludingTaxes": "671.50"
+    },
+    {
+      "id": "a254",
+      "articles": [
+        {
+          "reference": "A006",
+          "quantity": "3"
+        },
+        {
+          "reference": "A005",
+          "quantity": "2"
+        }
+      ],
+      "totalPriceExcludingTaxes": "320.00",
+      "totalPriceIncludingTaxes": "356.00"
+    },
+    {
+      "id": "13ff",
+      "articles": [
+        {
+          "reference": "A005",
+          "quantity": 1
+        },
+        {
+          "reference": "A001",
+          "quantity": 1
+        }
+      ],
+      "totalPriceExcludingTaxes": "90.00",
+      "totalPriceIncludingTaxes": "103.50"
+    },
+    {
+      "id": "e2f0",
+      "articles": [
+        {
+          "reference": "A007",
+          "quantity": "2"
+        }
+      ],
+      "totalPriceExcludingTaxes": "78.00",
+      "totalPriceIncludingTaxes": "88.14"
+    }
+  ]
+}
